@@ -66,7 +66,7 @@ collection = db["convo"]
 app = Flask(__name__)
 
 # Replace this with your Telegram bot API token
-TELEGRAM_API_TOKEN = "6389965231:AAFmkyPdhOAZT_1HM07dg1uigpRRKELC520"
+TELEGRAM_API_TOKEN = "BOT_TOKEN"
 
 # Create a Telegram Bot instance
 bot = telegram.Bot(token=TELEGRAM_API_TOKEN)
